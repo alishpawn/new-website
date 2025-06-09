@@ -1,0 +1,126 @@
+/*Theme Name: : FnClickAuthor URI: http://fnclick.com/Version: 1.0.0*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --primary-color: #0065b3;
+    --secondary-color: #d31b20;
+    --dark-color: #000;
+    --light-gray: rgb(249 249 249 / 73%);
+    --light-white: #f5f5f5;
+    --gray-l-color: #666666;
+
+    --primary-fonts: 'Roboto', sans-serif;
+    --secondary-fonts: 'Archivo', sans-seri;
+    --logo-fonts: 'Merriweather', serif;
+
+    --default-transition: all 0.3s ease;
+
+    --section-gaps: 100px;
+    --section-md-gaps: 70px;
+}
+
+
+body {
+
+    font-family: var(--primary-fonts);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--dark-color);
+}
+
+img {
+    max-width: 100%;
+}
+body, html{
+    overflow-x:hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-fonts);
+    overflow-wrap: inherit;
+    line-height: 1.1;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color:var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a, input[type="submit"], button {
+    cursor: pointer;
+    -webkit-transition: var(--default-transition);
+    -o-transition: var(--default-transition);
+    transition: var(--default-transition);
+}
+
+
+.social-links ul,
+.sub-menu,
+ul.contact-list,
+.social-link-list,
+.single-test-sty ul,
+.site-footer ul,
+.copyright-sec ul,
+.primary-menu,
+.list-none {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Color ,gaps and other css */
+
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.section-gaps {
+    padding: var(--section-gaps) 0;
+}
+
+/* End Color ,gaps and other css */
+
+/* Title sty css */
+
+.main-title .title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    color: var(--primary-color);
+    position: relative;
+    margin-bottom: 10px;
+}
+.main-title .subtitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-title .txt {
+    max-width: 600px;
+    font-size: 15px;
+}
+.max-width-min{
+    max-width: 440px;
+}
+
+/* End Title sty css */
+
+
